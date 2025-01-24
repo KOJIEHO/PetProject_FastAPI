@@ -7,6 +7,8 @@ from models.models import Base, User, Post
 from database.database import engine, session_local
 from schemas.schemas import UserCreate, User as DbUser, PostCreate, PostResponse
 
+test = 'test'
+
 app = FastAPI()
 
 # Настройка CORS
